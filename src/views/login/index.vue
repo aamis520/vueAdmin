@@ -66,6 +66,7 @@ export default {
   },
   methods: {
     showPwd() {
+      console.log('login')
       if (this.pwdType === 'password') {
         this.pwdType = ''
       } else {
